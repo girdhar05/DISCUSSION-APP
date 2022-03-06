@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/register.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="main">
+      <p class="sign" align="center">Register Yourself</p>
+
+      <% if(errStatus === 'true') { %>
+      <div class="errorMsg" align="center"><%= errMsg %></div>
+      <% } else { %>
+      <hr />
+      <% } %>
+      <form class="form1" method="POST" action="/">
+        <input
+          class="un"
+          type="text"
+          name="username"
+          align="center"
+          placeholder="Username"
+          required="required"
+        />
+
+        <input
+          class="un"
+          type="text"
+          name="mobile"
+          align="center"
+          placeholder="Mobile Number"
+          required="required"
+        />
+
+        <input
+          class="un"
+          type="text"
+          name="email"
+          align="center"
+          placeholder="email"
+          required="required"
+        />
+        <input
+          class="pass"
+          type="password"
+          name="password"
+          align="center"
+          placeholder="Password"
+          required="required"
+        />
+        <button type="submit" class="submit" align="center">Sign up</button>
+        <a class="forgot" href="/" align="center">Login</a>
+      </form>
+    </div>
+  </body>
+</html>

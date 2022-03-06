@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: lightgrey;
+}
+
+.cotainer {
+  position: relative;
+}
+
+.username {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  z-index: 123;
+  background-color: lightgreen;
+  padding: 5px;
+}
+
+.p5Canvas {
+  box-shadow: 20px 0px 10px 0px #607d8b;
+  background-color: lightgreen;
+}
+
+.chat {
+  width: 18%;
+  height: 100%;
+  background-color: lightseagreen;
+  float: right;
+}
+
+.clearfix {
+  clear: left;
+}
+
+.video-chat {
+  width: 100%;
+  height: 25%;
+  margin-bottom: 1%;
+  background-color: powderblue;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.text-chat {
+  position: relative;
+  width: 100%;
+  height: 49%;
+  background-color: lightpink;
+}
+
+#message-container {
+  background-color: royalblue;
+  max-height: 80%;
+}
+
+#message-container div {
+  background-color: #ccc;
+  padding: 5px;
+}
+
+#message-container div:nth-child(2n) {
+  background-color: #fff;
+}
+
+#send-container {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+#message-input {
+  width: 80%;
+  padding: 5px;
+}
+
+#send-button {
+  width: 18%;
+  padding: 5px;
+  cursor: pointer;
+}
