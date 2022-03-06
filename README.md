@@ -2,7 +2,7 @@
 
 **INTRODUCTION**
 ~~~
-online-meeting web app having live-video call, text-
+Discussion App is an online-meeting web app having live-video call, text-
 messaging, white-board using JavaScript, Node.js, Mongodb,
 Bootstrap, ejs
 ~~~
